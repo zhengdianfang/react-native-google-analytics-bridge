@@ -14,6 +14,8 @@ android {
     lintOptions {
         warning 'InvalidPackage' // prevent error: https://github.com/square/okio/issues/58
     }
+    packageBuildConfig(false)
+
 }
 
 dependencies {
